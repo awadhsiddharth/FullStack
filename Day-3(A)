@@ -1,0 +1,112 @@
+var  x= 100;
+undefined
+var b = null;
+undefined
+x = 200;
+200
+b = null;
+null
+x+90;
+290
+var array = [10,20,30,40,50,60];
+undefined
+var y = array;
+undefined
+y;
+(6) [10, 20, 30, 40, 50, 60]
+array;
+(6) [10, 20, 30, 40, 50, 60]
+y == array;
+true
+array == y;
+true
+y[0] = 1000;
+1000
+y;
+(6) [1000, 20, 30, 40, 50, 60]
+array;
+(6) [1000, 20, 30, 40, 50, 60]
+var a = 1000;
+undefined
+var a1 = a;
+undefined
+a1;
+1000
+a;
+1000
+a1 = a1 +1000;
+2000
+a1;
+2000
+a;
+1000
+var arr = [10,20,30,40,50,60];
+undefined
+arr.length;
+6
+arr.push(100);
+7
+arr;
+(7) [10, 20, 30, 40, 50, 60, 100]
+arr.unshift(333);
+8
+arr;
+(8) [333, 10, 20, 30, 40, 50, 60, 100]
+arr.shift;
+ƒ shift() { [native code] }
+arr;
+(8) [333, 10, 20, 30, 40, 50, 60, 100]
+var obj = {};
+undefined
+typeof obj;
+'object'
+var arr = [];
+undefined
+typeof arr;
+'object'
+obj instanceof Object;
+true
+arr instanceof Object;
+true
+arr instanceof Array;
+true
+obj instanceof Array;
+false
+var temp = {'Delhi':22, 'Mumbai':33};
+undefined
+temp['Delhi'];
+22
+temp['Mumbai']
+33
+var arr = [10,20,30,40,50,60];
+undefined
+arr[0];
+10
+var ename = "Amit";
+undefined
+typeof ename;
+'string'
+var customerName = new String("Ram");
+undefined
+typeof customerName;
+'object'
+customerName instanceof String;
+true
+customerName instanceof Object;
+true
+customerName.toUpperCase;
+ƒ toUpperCase() { [native code] }
+customerName;
+String {'Ram'}
+customerName.toUpperCase();
+'RAM'
+customerName.length();
+VM1840:1 Uncaught TypeError: customerName.length is not a function
+    at <anonymous>:1:14
+(anonymous) @ VM1840:1
+customerName.length;
+3
+customerName.substring(1);
+'am'
+customerName.charAt(0);
+'R'
