@@ -1,5 +1,6 @@
 var  x= 100;
 undefined
+
 var b = null;
 undefined
 x = 200;
