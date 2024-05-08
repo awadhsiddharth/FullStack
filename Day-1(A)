@@ -1,5 +1,6 @@
 var a;
 undefined
+
 typeof a;
 'undefined'
 a  = 10;
