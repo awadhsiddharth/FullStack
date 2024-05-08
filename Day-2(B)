@@ -2,6 +2,7 @@
 undefined
 undefined == null;
 true
+
 var t ;
 undefined
 typeof t;
