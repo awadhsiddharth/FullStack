@@ -1,6 +1,5 @@
 var a = 10;
 undefined
-
 typeof a;
 'number'
 var b = new Number(100);
